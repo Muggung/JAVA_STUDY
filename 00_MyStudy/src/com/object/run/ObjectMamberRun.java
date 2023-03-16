@@ -19,6 +19,7 @@ public class ObjectMamberRun {
 		// 2. 게시판
 		Board bd = new Board("안녕하세요", "반갑습니다.");
 		
+		
 		System.out.println(bd.getBoard1());
 		System.out.println(bd.getBoard2());
 	}

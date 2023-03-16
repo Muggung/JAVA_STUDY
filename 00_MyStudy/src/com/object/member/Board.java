@@ -17,10 +17,10 @@ public class Board {
 	}
 
 	public String getBoard1() {
-		return board1;
+		return this.board1;
 	}
 
 	public String getBoard2() {
-		return board2;
+		return this.board2;
 	}
 }
