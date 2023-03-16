@@ -1,5 +1,6 @@
 package com.object.run;
 import java.text.SimpleDateFormat;
+
 import java.util.Date;
 import java.util.Scanner;
 
@@ -32,7 +33,7 @@ public class ObjectTestRun {
 		String userHobby = sc.next();
 		
 		System.out.println("===== 회원가입 완료 =====");
-		SignUp userME = new SignUp(userID, userPW, userE_mail, userAge, userHobby);
+		new SignUp(userID, userPW, userE_mail, userAge, userHobby);
 		
 		
 		
@@ -52,7 +53,7 @@ public class ObjectTestRun {
 		String userToday = todayDate.format(today);
 		
 		System.out.println("\n===== 게시판 생성 완료 =====");
-		Board myBoard = new Board(userTitle, userName, userContent, userToday);
+		new Board(userTitle, userName, userContent, userToday);
 		
 		
 		// 사원 정보 받기
@@ -78,7 +79,7 @@ public class ObjectTestRun {
 			System.out.print("인센티브를 입력해주세요 : ");
 			double employeeIncen = sc.nextDouble();
 			
-			Employee employee = new Employee(employeeName, employeePart, employeeSalary, employeePhone, employeeIncen);
+			new Employee(employeeName, employeePart, employeeSalary, employeePhone, employeeIncen);
 			count++;
 		}
 	}
