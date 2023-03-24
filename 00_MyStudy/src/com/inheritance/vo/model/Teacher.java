@@ -32,4 +32,5 @@ public class Teacher extends Person {
 	public String info() {
 		return print() + " 전공과목 :" + major + " 담당과목 : " + inCharge;
 	}
+	
 }

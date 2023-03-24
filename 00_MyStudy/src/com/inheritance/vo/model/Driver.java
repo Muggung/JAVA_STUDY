@@ -32,4 +32,5 @@ public class Driver extends Person {
 	public String info() {
 		return print() + " 담당지역 :" + region + " 운전경력 : " + career;
 	}
+	
 }

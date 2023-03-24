@@ -6,6 +6,7 @@ import com.inheritance.vo.model.*;
 
 public class Main {
 	public static void main(String[] args) {
+		
 		Person[] p = new Person[5];
 		
 		p[0] = new Student("이동제", 25, '남', "자바", 64);

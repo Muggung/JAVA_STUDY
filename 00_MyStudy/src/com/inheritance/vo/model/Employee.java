@@ -32,4 +32,5 @@ public class Employee extends Person {
 	public String info() {
 		return print() + " 부서 :" + department + " 휴대폰 : " + phone;
 	}
+	
 }
